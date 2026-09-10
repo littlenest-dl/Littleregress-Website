@@ -50,7 +50,8 @@
                 <div class="saira p-2 rounded-md bg-slate-400">
                     <div class="flex gap-1 bg-slate-300">
                         <div class="bg-slate-500 w-[2px]"></div>
-                        <p class="text-slate-700">Concepto</p>
+                        <p v-if="lang == 'en'" class="text-slate-700">Concept</p>
+                        <p v-else class="text-slate-700">Concepto</p>
                     </div>
                     <div class="py-2">
                         <div>
